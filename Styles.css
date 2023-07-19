@@ -1,0 +1,27 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    /* background-image: url("https://wallpapercave.com/wp/wp7477876.jpg"); */
+    background-image: url("https://wallpapercave.com/wp/wp8963442.jpg");
+    margin:auto;
+    color: aliceblue;
+}
+section{
+    text-align: center;
+    padding: 50px;
+}
+.game--container{
+display: grid;
+grid-template-columns: repeat(3,auto);
+grid-template-rows: repeat(3,auto);
+width:300px;
+margin: 50px auto;
+}
+.cell{
+    font-family: "Permanent Marker",cursive;
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    cursor: pointer;
+    font-size: 60px;
+}
